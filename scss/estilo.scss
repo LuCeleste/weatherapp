@@ -1,0 +1,56 @@
+$font:  'Open Sans', sans-serif;
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: $font;
+    // background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;
+}
+.card{
+    background: #e4b0a7;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: .5rem;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    transition: .5s;
+    outline: none;
+    cursor: pointer;
+}
+input[type="text" i] {
+    border: none;
+    outline: none;
+    padding: .8em;
+    border-radius: 18px;
+    color: white;
+    font-family: $font;
+    font-size: 1rem;
+    background-color: transparent;
+    width: calc(100% - 100px);
+    border: solid .5px;
+}
+button:hover{
+    background: #7c7c7c6b;
+}
+h1{
+    margin: 0;
+}
