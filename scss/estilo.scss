@@ -18,6 +18,7 @@ body{
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
+    box-shadow: 21px 19px 40px 6px rgba(0,0,0,0.69);
     margin: 1em;
     color: white;
 }
@@ -29,12 +30,12 @@ body{
 button{
     margin: .5rem;
     border-radius: 50%;
-    border: none;
+    border: white;
     height: 46px;
     width: 46px;
     transition: .5s;
     outline: none;
-    cursor: pointer;
+
 }
 input[type="text" i] {
     border: none;
@@ -49,8 +50,24 @@ input[type="text" i] {
     border: solid .5px;
 }
 button:hover{
-    background: #7c7c7c6b;
+    background: transparent;
+    cursor: pointer;
+    border: solid .5px white;
 }
 h1{
     margin: 0;
+}
+.description{
+    text-transform: capitalize;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 65px;
+}
+.weather{
+    padding: 15px;
 }
